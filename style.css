@@ -1,0 +1,182 @@
+:root {
+  --color-header-bg: #fcdb00;
+  --color-icon: #010101;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+/*---General CSS---*/
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 700;
+  color: #010101;
+}
+
+/*---header CSS---*/
+.tiny-header {
+  background-color: var(--color-header-bg);
+  padding: 60px 0 50px;
+}
+.tiny-header-top {
+}
+.tiny-menu-icon {
+}
+.tiny-menu-icon i {
+  font-size: 25px;
+  color: #010101;
+}
+.tiny-logo {
+}
+
+.tiny-mobile-social {
+  display: none;
+}
+/* .tiny-social-icon {
+  display: block;
+} */
+.tiny-social-icon ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.tiny-social-icon ul li {
+  padding: 0 11px;
+}
+.tiny-social-icon ul li a {
+  font-size: 25px;
+  color: var(--color-icon);
+}
+.tiny-header-bottom {
+}
+.tiny-slide {
+  text-align: center;
+  padding: 219px 0 148px;
+}
+
+.tiny-slide ul {
+  display: flex;
+  justify-content: center;
+}
+
+.tiny-slide ul li {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #010101;
+  border-radius: 50%;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tiny-slide ul li a {
+  color: #010101;
+  font-size: 35px;
+}
+.tiny-slide h2 {
+}
+.tiny-slide p {
+  color: #313841;
+  font-size: 20px;
+}
+.tiny-indicators button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+/*---Feature CSS---*/
+.tiny-feature {
+  padding: 118px 0 97px;
+}
+.tiny-section-title {
+  text-align: center;
+  margin-bottom: 65px;
+}
+.tiny-section-title h3 {
+  font-size: 32px;
+}
+.tiny-section-title p {
+  font-size: 20px;
+  color: #898989;
+}
+.tiny-feature-post {
+  padding: 45px 0;
+}
+.tiny-feature-post h5 {
+  font-size: 22px;
+}
+.tiny-feature-post p {
+  font-size: 16px;
+  color: #898989;
+}
+.tiny-feature-tab {
+  position: relative;
+}
+.tiny-feature-tab img {
+  width: 100%;
+}
+.tiny-feature-logo {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*---Footer CSS---*/
+.tiny-footer {
+  background-color: #010101;
+  padding: 95px 0;
+}
+.tiny-footer .tiny-section-title h3 {
+  color: #fcdb00;
+}
+.tiny-subscribe {
+}
+.tiny-subscribe-form {
+  display: flex;
+  justify-content: space-between;
+}
+.tiny-subcription-email {
+  width: 90%;
+}
+.tiny-subcription-submit {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.tiny-subcription-submit input {
+  background-color: #fbdb00;
+  font-weight: 700;
+}
+.tiny-footer-bottom {
+  padding-top: 115px;
+}
+
+.tiny-address ul li {
+  color: #fff;
+}
+.tiny-footer-menu {
+}
+.tiny-footer-menu ul li {
+  color: #fff;
+}
